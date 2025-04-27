@@ -10,7 +10,10 @@ const app = express();
 connectDB();
 
 // Middleware
-app.use(cors()); // 👈 enable CORS for all origins
+app.use(cors({
+  origin: 'https://admin.rajeshthapa69.com.np', // Allow requests only from this domain
+})); 
+
 app.use(bodyParser.json());
 
 // Routes
