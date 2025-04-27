@@ -69,7 +69,7 @@ function html_type_1({ payload }) {
     <div>
         <br />
         <div>If you wish to unsubscribe from our newsletter, you can <a href="#">click here</a>.</div>
-        <div>Contact us: <a href="mailto:contact@grishmainvestment.com">contact@grishmainvestment.com</a> | Visit us at: <a href="http://www.grishmainvestment.com" target="_blank">www.grishmainvestment.com</a></div>
+        <div>Contact us: <a href="mailto:contact@grishmainvestment.com">contact@grishmainvestment.com</a> | Visit us at: <a href="${process.env.CLIENT_IP}" target="_blank">www.grishmainvestment.com</a></div>
     </div>
 </div>
 
@@ -90,7 +90,7 @@ function html_type_2({ payload }) {
         <i>"${payload.content}"</i>
         </div>
         <br />
-        <div>Want to read more? Click here to read the full article: <a href="http://192.168.1.68:5173/article/${payload.id}">Link</a></div>
+        <div>Want to read more? Click here to read the full article: <a href="${process.env.CLIENT_IP}/article/${payload.id}">Link</a></div>
         <br />
         <div>Stay tuned for more updates, and thank you for being a part of our community!</div>
     </div>
