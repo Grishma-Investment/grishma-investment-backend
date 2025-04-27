@@ -11,7 +11,7 @@ connectDB();
 
 // Middleware
 app.use(cors({
-  origin: 'https://admin.rajeshthapa69.com.np', // Allow requests only from this domain
+  origin: ['https://admin.rajeshthapa69.com.np', 'https://rajeshthapa69.com.np', 'https://www.rajeshthapa69.com.np']
 })); 
 
 app.use(bodyParser.json());
