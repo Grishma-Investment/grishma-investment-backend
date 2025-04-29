@@ -69,7 +69,7 @@ function html_type_1({ payload }) {
     <div>
         <br />
         <div>If you wish to unsubscribe from our newsletter, you can <a href="#">click here</a>.</div>
-        <div>Contact us: <a href="mailto:contact@grishmainvestment.com">contact@grishmainvestment.com</a> | Visit us at: <a href="${process.env.CLIENT_IP}" target="_blank">www.grishmainvestment.com</a></div>
+        <div>Contact us: <a href="mailto:contact@grishmainvestment.com">contact@grishmainvestment.com</a> | Visit us at: <a href="${process.env.CLIENT_IP}" target="_blank">www.grishmainvest.com</a></div>
     </div>
 </div>
 
