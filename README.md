@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the main source code for the Grishma Investment backend.
+This repository contains the main source code for the Grishma Investment Backend.
 
 ## Getting Started
 
