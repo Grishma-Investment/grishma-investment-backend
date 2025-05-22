@@ -9,6 +9,7 @@ This repository contains the main source code for the Grishma Investment Backend
 ### Requirements
 
 - Node.js (version 16 or higher recommended)
+- MongoDB (version 8 or higher recommended)
 
 ### Installation
 
